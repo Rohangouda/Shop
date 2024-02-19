@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 import { Button } from "../styles/Button";
-import { FaSquareXTwitter , FaInstagram, FaYoutube } from "react-icons/fa";
+import { FaTwitterSquare , FaInstagram, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -42,7 +42,7 @@ const Footer = () => {
               <div className="footer-social--icons">
                 <div>
                   <a href="https://twitter.com/RohanGouda07" target="_blank"  rel="noreferrer">
-                  <FaSquareXTwitter  className="icons" />
+                  <FaTwitterSquare  className="icons" />
                   </a>
                 </div>
                 <div>
