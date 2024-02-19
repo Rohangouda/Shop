@@ -41,7 +41,9 @@ const Footer = () => {
               <h3>Follow Us</h3>
               <div className="footer-social--icons">
                 <div>
+                  <a href="https://twitter.com/RohanGouda07" target="_blank"  rel="noreferrer"></a>
                   <FATwitter className="icons" />
+                  </a>
                 </div>
                 <div>
                 <a href="https://www.instagram.com/rohan.gouda.7/"  target="_blank"  rel="noreferrer">
