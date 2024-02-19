@@ -41,14 +41,16 @@ const Footer = () => {
               <h3>Follow Us</h3>
               <div className="footer-social--icons">
                 <div>
-                  <FaDiscord className="icons" />
+                  <FATwitter className="icons" />
                 </div>
                 <div>
+                <a href="https://www.instagram.com/rohan.gouda.7/"  target="_blank"  rel="noreferrer">
                   <FaInstagram className="icons" />
+                  </a>
                 </div>
                 <div>
                   <a
-                    href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA"
+                    href="https://www.youtube.com/"
                     target="_blank"  rel="noreferrer">
                     <FaYoutube className="icons" />
                   </a>
