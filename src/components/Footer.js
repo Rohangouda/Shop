@@ -25,7 +25,7 @@ const Footer = () => {
         <footer>
           <div className="container grid grid-four-column">
             <div className="footer-about">
-            <img src="./images/logo1.png" alt="my logo img" width="200"/>
+            <img src="./images/logors.png" alt="my logo img" width="200"/>
               {/* <h3>Rohan Ecommerce</h3> */}
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
             </div>
@@ -61,7 +61,7 @@ const Footer = () => {
             </div>
             <div className="footer-contact">
               <h3>Call Us</h3>
-              <h3>+91 9131665944</h3>
+              <h3>+91 9131665933</h3>
               <h3>Email</h3>
               <h3>rohangouda07@gmail.com</h3>
             </div>
