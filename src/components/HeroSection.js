@@ -18,9 +18,9 @@ const HeroSection = ({ myData }) => {
         // Same substring at the start will only be typed out once, initially
         'ROHAN STORE',
         1000,
-        'ROHAN Gadget Galaxy',
+        'ROHAN Gadget Galaxy.',
         1000,
-        'ROHAN Trend Spot',
+        'ROHAN Trend Spot.',
         1000
       ]}
       wrapper="span"
