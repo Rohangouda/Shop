@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import { Button } from "../styles/Button";
+import { TypeAnimation } from 'react-type-animation';
 
 const HeroSection = ({ myData }) => {
   const { name } = myData;
@@ -11,14 +12,31 @@ const HeroSection = ({ myData }) => {
         <div className="grid grid-two-column">
           <div className="hero-section-data">
             <p className="intro-data">Welcome to </p>
-            <h1> {name} </h1>
+            <h1> 
+            <TypeAnimation
+      sequence={[
+        // Same substring at the start will only be typed out once, initially
+        'ROHAN STORE',
+        1000,
+        'ROHAN Gadget Galaxy',
+        1000,
+        'ROHAN Trend Spot',
+        1000
+      ]}
+      wrapper="span"
+      speed={50}
+      style={{ fontSize: '0.8em', marginTop:'2px', display: 'inline-block' }}
+      repeat={Infinity}
+    />
+     </h1>
+            
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-              atque temporibus veniam doloribus libero ad error omnis voluptates
-              animi! Suscipit sapiente.
+            Discover Rohan's Emporium: A premier destination for cutting-edge gadgets,
+            sleek electronics. Experience innovation and quality in every purchase, 
+            redefining your shopping journey with us.
             </p>
             <NavLink>
-              <a href="/products" target="_blank" target="_blank"  rel="noreferrer"><Button>Shop now</Button></a>
+              <a href="/products" target="_blank" rel="noreferrer"><Button >Shop now</Button></a>
             </NavLink>
           </div>
           {/* our homepage image  */}
