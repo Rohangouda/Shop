@@ -39,18 +39,6 @@ const Footer = () => {
             </div>
             <div className="footer-social">
               <h3>Follow Us</h3>
-              <div>
-              <a className="fixed top-4 right-6" href="https://www.buymeacoffee.com/rohangouda" style={{"zIndex" : 51}} target="_blank">
-                <button className="rounded-md px-4 py-2 flex" style={{backgroundColor: "rgb(224, 114, 104)", color: "rgb(0, 0, 0)"}}>
-                  <div className="flex">
-                      <span className="btn-icon px-1">
-                        <img src="./images/chai.svg" alt="Chai icon" />
-                      </span>
-                      <span className="btn-custom-text">Buy us a chai</span>
-                </div>
-                </button>
-                </a>
-              </div>
               <div className="footer-social--icons">
                 <div>
                   <a href="https://twitter.com/RohanGouda07" target="_blank"  rel="noreferrer">
@@ -76,6 +64,16 @@ const Footer = () => {
               <h3>+91 9131665933</h3>
               <h3>Email</h3>
               <h3>rohangouda07@gmail.com</h3>
+              <a className="fixed top-4 right-6" href="https://www.buymeacoffee.com/rohangouda" style={{"zIndex" : 51}} target="_blank">
+                <button className="rounded-md px-4 py-2 flex" style={{backgroundColor: "rgb(129 107 229)", borderRadius:"10px", color: "rgb(0, 0, 0)"}}>
+                  <div className="flex">
+                      <span className="btn-icon px-1">
+                        <img src="./images/chai.svg" alt="Chai icon" />
+                      </span>
+                      <span className="btn-custom-text">Buy us a chai</span>
+                </div>
+                </button>
+                </a>
             </div>
           </div>
 
