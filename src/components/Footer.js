@@ -65,7 +65,8 @@ const Footer = () => {
               <h3>Email</h3>
               <h3>rohangouda07@gmail.com</h3>
               <a className="fixed top-4 right-6" href="https://www.buymeacoffee.com/rohangouda" style={{"zIndex" : 51}} target="_blank">
-                <button className="rounded-md px-4 py-2 flex" style={{backgroundColor: "rgb(129 107 229)", borderRadius:"10px", color: "rgb(0, 0, 0)"}}>
+                <button className="rounded-md px-4 py-2 flex" style={{backgroundColor: "rgb(129 107 229)", fontSize: "20px"
+    ,padding: "2px 10px 3px 3px", borderRadius:"10px", color: "rgb(0, 0, 0)"}}>
                   <div className="flex">
                       <span className="btn-icon px-1">
                         <img src="./images/chai.svg" alt="Chai icon" />
